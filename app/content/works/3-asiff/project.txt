@@ -1,0 +1,61 @@
+Title: As iFF
+
+----
+
+Date: 2015-07-15
+
+----
+
+Intro: Branding a film festival
+
+----
+
+Categories: typography, identity, web
+
+----
+
+Brief: Help conceptualize and brand a new film festival
+
+----
+
+Client: Irvington Town Hall Theater
+
+----
+
+Concept: 
+
+**As iFF** = *All Shorts Irvington Film Festival*
+Starting from the sound of this acronym and its use in informal expressions, we crafted a message and playful identity to enter the competitive landscape of film festivals in NY.
+
+(link: http://asiffestival.com/ text: Launch the site class: link fades  popup: yes)
+
+----
+
+Role: Creative Direction,Designer,Development
+
+----
+
+Team: Self + Copywriter (Zach Marco)
+
+----
+
+Typefaces: 
+
+- Custom logotype developed in Glyphs app
+- Dia by Schick Toikka
+
+----
+
+Tools: 
+
+----
+
+Link: http://asiffestival.com/
+
+----
+
+Photos: AsiFF_Poster_aug20153.jpg,B_lettered_desk_hiRes.jpg,as_iff_logotype_cover.jpg,as_iff_logotype_process_cover.jpg,asiff_web_trabucco-campos_01.png,asiff_web_trabucco-campos_02.png,asiff_web_trabucco-campos_03.png,asiff_web_trabucco-campos_04.png,asiff_web_trabucco-campos_11.png
+
+----
+
+Cover: b_lettered_cards_cover.jpg

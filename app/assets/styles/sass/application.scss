@@ -1,0 +1,52 @@
+/**
+ * CONTENTS
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * nprogress.css........Slim progress bars for Ajax'y applications.
+ *
+ * TOOLS
+ * Bourbon...............Simple and lightweight Sass mixin library.
+ * Neat...............Lightweight semantic grid.
+ * Settings...............Grid settings for Neat.
+ * Mixin...............Useful mixins: v-align, omega reset, transitions.
+ *
+ * SETTINGS
+* Colors...............Color definitions.
+ * Base...............Globally-available variables and config.
+ *
+ * OBJECTS
+ * Design Categories........Colors and settings for tags.
+ *
+ * COMPONENTS
+ * Global.............Global settings.
+ * Page-home............The main homepage layout.
+ *
+ *
+ */
+
+@import "vendor/normalize";
+
+@import "bourbon";
+@import "neat";
+@import "base/grid-settings";
+@import "custom/mixin";
+@import "custom/fonts";
+
+// Settings
+@import "custom/colors";
+@import "base/base";
+
+// Objects
+@import "vendor/nprogress";
+@import "vendor/flickity"; // v.1.1.0
+@import "custom/design-categories";
+@import "custom/animations";
+@import "custom/svg";
+@import "custom/btn";
+
+// Components
+@import "global";
+@import "sections/home";
+@import "sections/project";
+@import "sections/profile";

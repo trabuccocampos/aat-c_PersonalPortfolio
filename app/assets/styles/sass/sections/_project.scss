@@ -1,0 +1,236 @@
+.project__title {
+  @include span-columns(12);
+  @include row();
+
+  position: relative;
+  font-size: 18vw;
+  letter-spacing: -2px;
+  line-height: 1.2em;
+  // text-align: center;
+  color: $color-accent;
+  margin-bottom: 0;
+  margin-top: 10vh;
+  z-index: 10;
+
+  @include media($mobile) {
+    font-size: 22vw;
+    margin-top: 5vh;
+    line-height: 1em;
+  }
+}
+.project__basics {
+  @include outer-container();
+  @include pad();
+  padding-top: 0;
+  position: relative;
+  z-index: 3;
+
+  @include media($mobile) {
+    padding-top: 0;
+  }
+}
+  .project__date {
+    @include span-columns(1);
+    margin-top: 6px;
+  }
+  .project__meta {
+    @include span-columns(4);
+
+    .project__category {
+      font-size: .7em;
+    }
+  }
+  .project__subtitle {
+    @include span-columns(6);
+    @include omega();
+    font-family: $base-font-family;
+    font-size: 2em;
+    font-weight: normal;
+
+    @include media($mobile) {
+      font-size: 1.2em;
+      margin-top: $base-spacing/2;
+    }
+  }
+  // Mobile
+  @include media($tablet) {
+    .project__title,
+    .project__subtitle {
+      @include span-columns(8);
+      @include shift(0);
+    }
+    .project__date {
+      @include shift(0);
+      text-align: left;
+    }
+    .project__meta {
+      @include span-columns(7);
+      text-align: right;
+    }
+  }
+
+  .project__scroll {
+    @include span-columns(12);
+    text-align: center;
+    font-size: .5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $color-main-soft;
+  }
+
+  /**
+  *
+  * Cover Image
+  *
+  */
+.project__cover--wrapper {
+  margin: 0 -2.5%;
+  text-align: center;
+}
+.project__cover {
+  width: auto;
+  height: auto;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+
+/**
+*
+* Info about project
+*
+*/
+.project__details h3 {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: $base-font-family;
+}
+
+.project__details {
+  @include outer-container();
+
+  & > div:first-child {
+    @include span-columns(8);
+    padding-right: 1em;
+
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+
+    div {
+      margin-bottom: $base-spacing;
+    }
+  }
+
+  & > div+div {
+    @include span-columns(4);
+    @include omega();
+    // @include pad();
+    // padding-top: 1em;
+    // border-left: 1px solid color($grey, 300);
+    color: $color-third;
+    font-size: .8em;
+
+    @include media($mobile) {
+      @include span-columns(4);
+      padding: 0 !important;
+
+      div {
+        @include span-columns(2);
+        @include omega(2n);
+      }
+    }
+
+    div {
+      margin-bottom: $base-spacing;
+    }
+  }
+}
+  .project__details--role {
+    li {
+      display: inline;
+      background: $color-third;
+      color: white;
+      padding: .25em .6em .35em;
+      font-size: .8em;
+      line-height: 2.3em;
+      border-radius: 4px;
+      margin-right: .2em;
+    }
+  }
+
+/**
+*
+* Project Images
+*
+*/
+.project__img {
+  @include media($mobile) {
+    margin: 0 -2.5%;
+    padding: 0;
+  }
+}
+
+
+/**
+*
+* ARROWS to navigate projects
+*
+*/
+
+.nextprev {
+  position: relative;
+}
+.next, .prev {
+  @include soft-transition();
+  position: fixed;
+	background: rgba(255, 255, 255, 0.35);
+	padding: 0.55em 0.5em 0.2em;
+	z-index: 2000;
+	top: 45%;
+	font-size: 1.2em;
+	width: 6.5em;
+  color: transparentize($color-main, .2);
+
+  &:hover {
+    color: $color-main;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+.next + .prev:before {
+  content: '';
+	margin: 0 ;
+}
+
+$arrow-distance: 4.75em; // Control for arrow distance
+
+.prev {
+  left: -$arrow-distance;
+
+  &:hover {
+    margin-left: $arrow-distance;
+  }
+  &:after {
+    content: '\2190';
+    position: absolute;
+    top: 35%;
+    right: 15px;
+  }
+}
+.next {
+  right: -$arrow-distance;
+  text-align: right;
+
+  &:hover {
+    margin-right: $arrow-distance;
+  }
+  &:before {
+    content: ' \2192';
+
+    position: absolute;
+    top: 35%;
+    left: 15px;
+  }
+}

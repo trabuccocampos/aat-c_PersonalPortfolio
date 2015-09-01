@@ -1,0 +1,45 @@
+.profile__credits,
+.profile__about {
+  // @include outer-container;
+  @include row();
+  margin-top: $base-spacing*2;
+  margin-bottom: $base-spacing;
+}
+
+.profile__about--do,
+.profile__about--am {
+  @include span-columns(6);
+
+  &:first-child {
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+.profile__credits--img,
+.profile__credits--type {
+  @include span-columns(5);
+}
+.profile__credits--img {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+@include media($tablet) {
+  .profile__about--do,
+  .profile__about--am {
+    @include span-columns(8);
+  }
+
+  .profile__credits {
+    margin-top: 0;
+  }
+    .profile__credits--img {
+      @include span-columns(6);
+      @include shift(1);
+      margin-bottom: $base-spacing*2;
+    }
+    .profile__credits--type {
+      @include span-columns(8);
+    }
+}

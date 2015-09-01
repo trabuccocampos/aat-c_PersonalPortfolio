@@ -1,0 +1,60 @@
+Title: Ray-Ban
+
+----
+
+Date: 2013-12-15
+
+----
+
+Intro: Reimagining Ray-Ban
+
+----
+
+Categories: web, interactive
+
+----
+
+Cover: rayb_ban_trabuccocampos_iphone_cover.png
+
+----
+
+Brief: Re-envision Ray-Ban's customization engine for the mobile era
+
+----
+
+Client: UX Director at Ray-Ban, Marco Catani
+
+----
+
+Concept: 
+
+A team of 4 classmates worked on the design & interface. I coded the web app. Special attention was paid to the simplification of the interface and to making the UX intuitive to the user.
+
+(link: http://trabuc.co/rayban/ text: Launch the site class: link fades  popup: yes)
+
+----
+
+Role: Designer,Development
+
+----
+
+Team: Marta Botter, Marwa Boukarim,  Nicola Muller, A.A. Trabucco-Campos
+
+----
+
+Typefaces: 
+
+- Source Sans Pro by Paul D. Hunt
+- Inconsolata by Ralph Levien
+
+----
+
+Tools: 
+
+----
+
+Link: 
+
+----
+
+Photos: mobile_Ray Ban Remix.png,ray-ban_trabucco-campos_01.png,ray-ban_trabucco-campos_02.png,ray-ban_trabucco-campos_03.png,ray-ban_trabucco-campos_04.png,ray-ban_trabucco-campos_05.png,ray-ban_trabucco-campos_06.png,ray-ban_trabucco-campos_07.png,ray-ban_trabucco-campos_08.png,ray-ban_trabucco-campos_09.png,ray-ban_trabucco-campos_10.png,ray-ban_trabucco-campos_11.png

@@ -1,0 +1,39 @@
+// Typography
+$base-font-family: "Neutral 4", "Nitti Grotesk", sans-serif;
+$heading-font-family: "La Fabrique", "Nitti Grotesk", sans-serif;
+$mono-font-family: "Nitti", monospace;
+
+// Font Sizes
+$base-font-size: 20px;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$color-bg: color($grey, 100);
+$color-main: color($grey, 800);
+$color-main-soft: color($grey, 500);
+$color-secondary: color($grey, 900);
+$color-secondary-soft: color($grey, 800);
+$color-third: color($grey, 400);
+$color-accent: color($blue, 700);
+
+// Font Colors
+$base-background-color:  $color-bg;
+$base-font-color:  $color-main;
+$action-color:  $color-secondary;
+
+// Border
+$base-border-color: $color-main;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);

@@ -1,0 +1,128 @@
+::selection {
+  color: white;
+  background-color: color($teal, a400);
+}
+
+body {
+  background-color: $color-bg;
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  @include soft-transition();
+
+}
+body:before {
+  content: '';
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  z-index: -3;
+	background-image: linear-gradient(to bottom,$color-bg,$color-bg);
+	opacity: .64;
+}
+header {
+  @include outer-container();
+
+  & > a,
+  & > nav, {
+    @include pad();
+    padding-top: 0;
+  }
+}
+.logo {
+  @include span-columns(4);
+  font-family: $base-font-family;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  color: $color-accent;
+
+  @include media($tablet) {
+    @include span-columns(4);
+  }
+  @include media($mobile) {
+    @include span-columns(4);
+    text-align: center;
+    font-size: .95em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+}
+.main,
+header {
+  @include outer-container();
+  @include pad();
+}
+
+// Navigation
+nav {
+}
+  nav ul {
+    float: right;
+
+    @include media($mobile) {
+      float: none;
+      text-align: center;
+      font-size: .8em;
+
+      li a {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+    nav li a.active {
+      border-bottom: 2px dotted $color-accent;
+    }
+
+// Footer
+footer {
+  font-size: .7em;
+  position: fixed;
+  bottom: 7.5em;
+  right: -6.8em;
+  transform: rotate(-90deg);
+  p {
+    margin: 0;
+    margin-left: 1em;
+    padding: 0;
+  }
+  @include media($mobile) {
+    font-size: .6em;
+    right: -7em;
+    bottom: 7em;
+  }
+}
+
+
+// images handled through echo
+.img--layzr {
+  text-align: center;
+  min-height: 30vh;
+}
+
+.text {
+  @include pad();
+}
+
+// Typography
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  margin-bottom: $base-spacing/3;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1;
+  margin-bottom: $base-spacing/3;
+}

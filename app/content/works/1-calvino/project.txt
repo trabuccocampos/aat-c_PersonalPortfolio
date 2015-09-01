@@ -1,0 +1,60 @@
+Title: Calvino
+
+----
+
+Date: 2014-07-01
+
+----
+
+Brief: Design a visual book using Italo Calvino’s “If On A Winter’s Night A Traveler”
+
+----
+
+Concept: 
+
+Render Calvino’s text accessible, legible, and visually clear, yet interpreting his text.
+
+Challenge typographic rules, book formats and layouts, and the use of photography in narrative volumes.
+
+----
+
+Role: Creative Direction,Designer,Production
+
+----
+
+Team: A.A. Trabucco-Campos + Aunie Frisch
+
+----
+
+Typefaces: 
+
+- Bauer Bodoni
+- Akkurat by Lineto
+
+----
+
+Intro: Calvino told visually
+
+----
+
+Categories: typography, editorial
+
+----
+
+Client: Editorial design course at SPD
+
+----
+
+Tools: InDesign
+
+----
+
+Photos: 4.jpeg,2.gif,3.gif,1.jpeg,5.jpeg,6.jpeg,7.jpeg,8.jpg,9.jpeg,10.jpeg,11.jpg,12.jpg,13.jpeg,14.jpeg,15.jpeg,16.jpeg,17.jpg
+
+----
+
+Cover: cover.jpg
+
+----
+
+Link: 

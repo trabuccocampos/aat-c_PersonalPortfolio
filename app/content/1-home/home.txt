@@ -1,0 +1,5 @@
+Title: Works
+
+----
+
+Text: Hi, my name is (link: /profile text: Andrea title:  what i do / who i am) and I am a visual designer with a focus on typography. I produce works both in print and on the web.

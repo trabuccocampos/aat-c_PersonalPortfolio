@@ -1,0 +1,121 @@
+.intro {
+  @include outer-container;
+}
+  .intro__opening {
+    @include span-columns(7);
+    @include shift(4);
+    @include pad();
+
+    font-family: $base-font-family;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+
+    @include media($tablet) {
+      @include span-columns(6);
+      @include shift(1);
+      margin-top: 8vh;
+      margin-bottom: 10vh;
+      font-size: 1.1em;
+    }
+    @include media($mobile) {
+      @include span-columns(4);
+      @include shift(0);
+    }
+
+    a {
+      @include soft-transition();
+      color: $color-accent;
+      border-bottom: 2px dotted $color-accent;
+
+      &:hover {
+        position: relative;
+
+        &:after {
+          content: attr(title)"\00a0\00a0\00a0\2192";
+          position: absolute;
+          left: -50%;
+          bottom: 100%;
+          white-space: nowrap;
+
+          background: $color-accent;
+          padding: 0.25em 1.6em 0.15em;
+          color: $color-bg;
+          border-radius: 3px;
+          text-transform: uppercase;
+          font-weight: bolder;
+          letter-spacing: 1px;
+          font-size: 0.4em;
+
+        }
+      }
+    }
+  }
+
+
+/**
+*
+* Project link styling
+*
+*/
+.projects__title {
+  font-size: 1.5em;
+  font-family: $base-font-family;
+  font-weight: normal;
+
+  @include pad();
+  padding-bottom: $base-spacing/3;
+
+  @include media($tablet) {
+    font-size: 1.1em;
+  }
+}
+.projects__list {
+  @include outer-container;
+  @include pad();
+}
+  .projects__list li {
+    @include span-columns(4);
+    @include omega(3n);
+    margin-bottom: $base-spacing*2;
+
+    @include media($tablet) {
+      @include span-columns(4);
+      @include omega-reset(3n);
+      @include omega(2n);
+    }
+
+    @include media($mobile) {
+      @include span-columns(4);
+      @include omega-reset(2n);
+      margin-bottom: $base-spacing;
+    }
+  }
+  .project__link {
+    display: inline-block;
+  }
+    .project__date {
+      font-weight: 600;
+      font-size: .7em;
+      color: $color-main-soft;
+    }
+    .project__intro {
+      font-size: 2.2em;
+      margin-right: .5em;
+      margin-bottom: 0;
+      line-height: 1.1em;
+      font-weight: 600;
+
+      @include media($tablet) {
+        line-height: 1em;
+      }
+    }
+    .project__category {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: .6em;
+      letter-spacing: 1px;
+      margin-right: 5px;
+    }

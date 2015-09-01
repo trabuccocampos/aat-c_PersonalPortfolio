@@ -1,0 +1,35 @@
+Title: Profile
+
+----
+
+Text: (email: trabuccocampos@gmail.com text: Write me an email class: link fades) / (twitter: trabuccocampos text: Talk to me on Twitter class: link fades popup: yes) / (link: https://www.behance.net/trabuccocampos text: Behance class: link fades popup: yes) / (link: https://www.instagram.com/trabuccocampos text: Instagram class: link fades popup: yes)
+
+----
+
+Aboutdo: 
+
+I am a visual designer who produces works both in print and on the web.
+
+With a broad approach, I take my ideas from beginning to end, paying attention to legibility, hierarchy, layouts and interaction.
+
+I am intrigued by the evolution of new digital landscapes — how they’re informed by the large print tradition, and vice versa, how print environments are affected by the digital progression.
+
+----
+
+Aboutam: 
+
+Born in Bogotá, Colombia, I was raised near Lucca, Italy. When I was 16 my family and I moved to the United States. I lived in Miami and later moved to NYC to study Philosophy at New York University.
+
+In 2013, I moved to Milan to pursue a double Master’s in Visual and Web design from the Scuola Politecnica di Design (SPD). After graduating, I worked for Italy’s largest financial newspaper, *Il Sole 24 Ore*. Recently, I moved back to what has become my home, NYC, to pursue a career in design.
+
+----
+
+Creditstype: 
+
+Typefaces used in this portfolio:
+**Neutral** by Kai Bernau for text
+**La Fabrique** by The Entete via Colophon Foundry for headlines
+
+----
+
+Creditsbuild: Website designed and code by A.A. Trabucco-Campos (me), using html5, css3 through sass, bourbon & neat, and dynamic *Ajax* loading. Written in PHP and served over Kirby CMS.

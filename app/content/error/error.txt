@@ -1,0 +1,11 @@
+Title: Oops.
+
+----
+
+Text: 
+
+The page has not been found. Sorry! 
+
+`¯\_(ツ)_/¯`
+
+(link: http://trabuc.co text: Return home class: link fades)

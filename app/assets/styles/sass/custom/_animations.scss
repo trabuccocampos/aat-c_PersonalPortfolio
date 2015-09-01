@@ -1,0 +1,51 @@
+// NOTE: include the bourbon library – bourbon.io
+// ---
+// Usage:
+// <nav>
+//   <a class="nav--item"></a>
+//   <a class="nav--item"></a>
+//   <a class="nav--item"></a>
+//   <a class="nav--item"></a>
+// </nav>
+//
+// Animation is triggered by applying the .is--menu-active
+// class to a parent element of .nav--item (e.g. the body)
+
+
+// Animation keyframes
+
+@include keyframes(fadeIn) {
+  from {
+    @include transform(translateY(-30px));
+    opacity: 0;
+  }
+  to {
+    @include transform(translateY(0));
+    opacity: 1;
+  }
+}
+
+// Animation mixin
+
+@mixin animation--fadedown($delay) {
+  @include animation(fadeIn 0.6s ease-in-out);
+  @include animation-iteration-count(1);
+  @include animation-fill-mode(forwards);
+  @include animation-delay(#{$delay}s);
+}
+
+// Nav item selector
+
+.fades {
+  opacity: 0;
+  backface-visibility: hidden;
+  transform: translateZ(0) scale(1.0, 1.0);
+
+  .is--fading & {
+    @for $i from 1 through 8 {
+      &:nth-child(#{$i}) {
+        @include animation--fadedown($i/5);
+      }
+    }
+  }
+}
