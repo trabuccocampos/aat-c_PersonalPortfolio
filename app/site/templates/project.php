@@ -56,6 +56,12 @@
       </div>
     </article>
 
+    <?php if($page->featured_video()->isNotEmpty()): ?>
+      <div class="featured_video">
+        <?= $page->featured_video()->oembed() ?>
+      </div>
+    <?php endif; ?>
+
     <?php
     $filenames = $page->photos()->split(',');
      if(count($filenames) < 2) $filenames = array_pad($filenames, 2, '');

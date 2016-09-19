@@ -85,3 +85,11 @@ fields:
     type: selector
     mode:  multiple
     sort:  sort
+
+
+  projectVideo:
+    label: Details
+    type: headline
+  featured_video:
+    label: Featured video
+    type:  oembed

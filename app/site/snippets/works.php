@@ -25,15 +25,15 @@
 </ol>
 
 <script type="text/javascript">
-// Dynamic Hover States
-$('.project__link').hover( function() {
-    var $hover = $(this).attr('data-hover');
-    $('body').css({"background-image":"url(" + $hover + ")"});
+  // Dynamic Hover States
+  $('.project__link').hover( function() {
+      var $hover = $(this).attr('data-hover');
+      $('body').css({"background-image":"url(" + $hover + ")"});
 
-}).mouseleave(function(){
-  $('body').css({"background-image":"none"});
-});
-$('.project__link').click( function() {
-    $('body').css("background-image", "none");
-});
+  }).mouseleave(function(){
+    $('body').css({"background-image":"none"});
+  });
+  $('.project__link').click( function() {
+      $('body').css("background-image", "none");
+  });
 </script>

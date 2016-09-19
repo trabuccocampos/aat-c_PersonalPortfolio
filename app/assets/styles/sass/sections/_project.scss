@@ -3,7 +3,8 @@
   @include row();
 
   position: relative;
-  font-size: 18vw;
+  // font-size: 18vw;
+  font-size: 13vw;
   letter-spacing: -2px;
   line-height: 1.2em;
   // text-align: center;
@@ -13,9 +14,11 @@
   z-index: 10;
 
   @include media($mobile) {
-    font-size: 22vw;
+    // font-size: 22vw;
+    font-size: 15vw;
     margin-top: 5vh;
     line-height: 1em;
+    letter-spacing: 0;
   }
 }
 .project__basics {
